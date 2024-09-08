@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Proxima Nova, helvetica neue, helvetica, arial, sans-serif;
+}
+
+body{
+    background-color: black;
+    background-image: url(back1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    
+}
+
+.navBar{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgba(0, 0, 0, 0.5);
+    
+}
+
+.logo_icon{
+    margin-left: 7px;
+}
+
+
+.searchbar{
+    display: flex;
+    align-items: center;
+    border: 0;
+    border-radius: 5px;
+    background-color: #dfdfdf;
+    height: 32px;
+    width: 100%;
+    max-width: 65%;
+    margin-left: 100px;
+    margin-right: auto;
+    flex: 3;
+}
+
+.searchbar input{
+    background-color: #dfdfdf;
+    width: 100%;
+    padding: 6px 10px;
+
+}
+
+.searchbar img{
+    height: 30px;
+}
+
+.log{
+    
+    margin-right: 30px;
+    
+}
+
+.Sign{
+    background-color: #dfdfdf;
+    padding: 0 20px;
+    border-radius: 3px;
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.login{
+    color: #d4d4d5;
+    margin-right: 20px;
+    margin-left: 25px;
+}
+
+.foot{
+    background-color: black;
+    color: white;
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 0;
+}
+.links{
+    color: grey;
+    font-size:medium;
+}
+
+.icons{
+    display: flex;
+
+}
+
+.icons img{
+    height: 40px;
+}
+.foot img{
+    height: 50px;
+}
+
+.content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px auto 0;
+}
+
+.content h1{
+    font-size: 60px;
+}
+
+.content h2{
+    margin: 20px 0 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.content button{
+    height: 64px;
+    width: 200px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+}
